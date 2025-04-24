@@ -1,0 +1,188 @@
+refer{color:
+    #f57316
+    #F0FFF0
+    #0E0E10
+}
+@media (max-width:1299px){
+    .logo-pc{
+        visibility: hidden;
+    }
+    .menu-ft-pc{
+        display: none;
+    }
+    .get-it-on-windows{
+        display: none;
+    }
+    .banner::before{
+        right: -230px;
+    }
+    .banner::after{
+        left: -230px;
+    }
+    .patch-notes{
+        top: 1220px;
+        width: 80%;
+    }
+    .version-of-patch-notes , .paragraph-of-patch-notes-pc{
+        display: none;
+    }
+    .discord-header a h1 {
+        display: none;
+    }
+    .discord-header a i{
+        color:#F0FFF0;
+    }
+}
+@media (min-width:1300px){
+    .menu-ft{
+        display: none;
+    }
+    .menu-ft-pc{
+        position: absolute;
+        float: right;
+        right: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu-ft-pc li{
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+    .menu-ft-pc ul li a{
+        font-family: greto;
+        letter-spacing: 2px;
+        color: #F0FFF0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        font-size: 20px;
+        font-size: medium;
+        text-align: center;
+        transition: all 0.3s linear;
+    }
+    .menu-ft-pc ul li a:hover::after{
+        width: 100%;
+    }
+    .menu-ft-pc ul li a::after{
+        content: "";
+        width: 0%;
+        height: 5px;
+        border-radius: 10px;
+        left: 0;
+        right: 0;
+        position: relative;
+        overflow: hidden;
+        bottom: -10px;
+        background-color: #f57316;
+        transition: all 0.3s linear;
+    }
+    .promo{
+        width: 25%;
+    }
+    .footer-paragraph{
+        font-size: 10PX;
+    }
+    .gif-of-banner{
+        position: absolute;
+        width: 1000px;
+        left: 110px;
+    }
+    .banner{
+        height: 840px;
+        top: 100px;
+    }
+    .container{
+        top: 1820px;
+    }
+    .title-of-main-banner{
+        position: absolute;
+        left: 50%;
+        font-size: 50px;
+        top: 0;
+    }
+    .description-of-main-banner{
+        position: absolute;
+        left: 50%;
+        font-size: 20px;
+        top: 30%;
+    }
+    .patch-notes{
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        width: 95%;
+    }
+    .patch-notes table th{
+        position: absolute;
+        top: 40px;
+        left: 150px;
+    }
+    .patch-notes table td{
+        top: 60px;
+        left: 150px;
+    }
+    .YouTube iframe{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+    .youtube-video-promotion{
+        top: 2200px;
+        height: 500px;
+        width: 800px;
+        left: 0;
+        display: none;
+    }
+    .discord-header {
+        position: absolute;
+        left: 280px;
+        width: 220px;
+        transition: all 0.5s linear;
+        cursor: pointer;
+        background-color: #7289da;
+    }
+    .discord-header:hover {
+        background-color: #F0FFF0;
+
+    i , h1 {
+        color: 	#7289da;
+
+    }
+    }
+    .discord-header a h1{
+        font-family: greto;
+        font-size: 22px;
+        color: #F0FFF0;
+        right: 25px;
+        font-weight: lighter;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        bottom: 0;
+        margin: auto;
+        position: absolute;
+        transition: all 0.5s linear;
+        
+    }
+    .discord-header a i{
+        position: absolute;
+        left: 20px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        transition: all 0.5s linear;
+        color: #F0FFF0;
+
+    }
+}

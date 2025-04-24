@@ -1,0 +1,1 @@
+alert("This Website May Collect User Data For Analytics, Advertisements, and Other Purposes. By Using This Website, You Agree To Our Privacy Policy and Terms of Service.");

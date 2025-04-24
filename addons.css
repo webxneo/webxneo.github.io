@@ -1,0 +1,17 @@
+refer{color:
+  #f57316
+  #F0FFF0
+  #0E0E10
+}
+@font-face {
+  font-family: Greto ;
+  src: url(Fonts/GretosFontRegular.ttf);
+}
+@font-face {
+  font-family: Frank ;
+  src: url(Fonts/FranckerFontMedium.ttf);
+}
+@font-face {
+  font-family: Agenc ;
+  src: url(Fonts/AgencyFontRegular.ttf);
+}
