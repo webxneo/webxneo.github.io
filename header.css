@@ -13,8 +13,7 @@ refer{color:
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 999;
-
+    z-index: 5;
 }
 .logo-mb , .logo-pc{
     position: absolute;
@@ -100,6 +99,10 @@ refer{color:
 .menu-ft ul li a:hover::after{
     width: 100%;
 }
+.menu-ft ul li a:hover{
+    color: #f57316;
+    
+}
 .menu-ft i{
     position: absolute;
     left: 0;
@@ -174,28 +177,22 @@ refer{color:
     display: flex;
     justify-content: center;
     align-items: center;
-    visibility:hidden;
+    visibility: hidden;
     z-index: 5;
     transition: all 0.3s linear;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
 }
 .search-box{
     position: absolute;
-    width: 250px;
-    height: 60px;
-    background: rgba(240, 240, 240, 0.158);
-    border: 7px solid #0E0E10;
-    box-shadow: 1px 1px 5px #0E0E10;
+    padding: 25px;
+    background: none;
+    border: 1px solid #f57316;
+    box-shadow: 1px 1px 30px #f57316;
     border-radius: 10px;
     transition: all 0.3s linear;
-    color: #F0FFF0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    transition: all 0.3s linear;
 }
 .search-box:hover{
+    background-color: #F0FFF0;
     border: none ;
 }
 .search-box::placeholder{
