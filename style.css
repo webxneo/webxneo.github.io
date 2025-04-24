@@ -3,6 +3,19 @@ refer{color:
     #F0FFF0
     #0E0E10
 }
+.container{
+    position: absolute;
+    top: 1550px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 1950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .title-of-list{
     font-family: greto;
     font-weight: lighter;
@@ -23,11 +36,10 @@ refer{color:
     left: 0;
     right: 0;
     margin: auto;
-    
-
 }
 .line-of-list{
     width: 95%;
+    
     height: 450px;
     border-radius: 10px;
     position: absolute;
@@ -39,6 +51,12 @@ refer{color:
     left: 0;
     right: 0;
     margin: auto;
+}
+.title-of-list:last-child{
+    margin-top: 40px;
+}
+.line-of-list:last-child{
+    margin-top: 500px;
 }
 .content-box{
     position: absolute;
@@ -54,7 +72,6 @@ refer{color:
     flex-direction: row;
     transition: all 0.5s ease-in-out;
     overflow: hidden;
-    
 }
 .content-box::after{
     position: absolute;
@@ -121,7 +138,7 @@ refer{color:
     font-family: greto;
     font-weight: lighter;
     letter-spacing: 1px;
-    width: 100px;
+    width: 120px;
     text-align: center;
     transition: all 0.5s ease-in-out;
     overflow: hidden;
@@ -237,14 +254,14 @@ refer{color:
 }
 .footer{
     width: 100%;
-    background-color: #0e0e105b;
+    background-color: #0e0e10;
     height: 80px;
-    position: absolute;
+    position:fixed;
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
-    z-index: -1;
+    z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;

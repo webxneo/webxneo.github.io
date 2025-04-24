@@ -3,3 +3,65 @@ refer{color:
     #F0FFF0
     #0E0E10
 }
+input[type="search"] {
+    border: none;
+    outline: none;
+  }
+
+.unavailable-show{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background-color: #F0FFF0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.unavailable-show a{
+    position: absolute;
+    left: 0;
+    right: 0;
+    font-family: greto;
+    text-decoration: none;
+    color: #F0FFF0;
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    padding: 10px;
+    background-color: #f57316;
+    width: 250px;
+    text-align: center;
+    bottom: 35%;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    overflow: hidden;
+    margin: auto;
+}
+.unavailable-show img{
+    width: 400px;
+    border-radius: 0px 60px 0px 0px;
+    border: 1px dashed #f57316;
+}
+.discord-header{
+    position: absolute;
+    right: 160px;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60px;
+    background: none;
+    height: 100%;
+}
+
