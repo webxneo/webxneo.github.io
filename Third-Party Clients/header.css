@@ -119,12 +119,6 @@ refer{color:
     justify-content: center;
     transition: all 0.3s linear;
 }
-.menu-ft-pc ul li a:focus{
-    color: #f57316;
-}
-.menu-ft ul li a:focus{
-    color: #f57316;
-}
 .menu-ft i:hover{
 
     ul{
