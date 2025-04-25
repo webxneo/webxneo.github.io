@@ -15,3 +15,27 @@ refer{color:
   font-family: Agenc ;
   src: url(Fonts/AgencyFontRegular.ttf);
 }
+@font-face {
+  font-family: Lemon ;
+  src: url(Fonts/LemonteaRegular.ttf);
+}
+@font-face {
+  font-family: Optin ;
+  src: url(Fonts/OptienRegular.ttf);
+}
+@font-face {
+  font-family: Teeko ;
+  src: url(Fonts/TekoRegular.ttf);
+}
+@font-face {
+  font-family: Evore ;
+  src: url(Fonts/EvoreRegular.otf);
+}
+@font-face {
+  font-family: Arkey ;
+  src: url(Fonts/ArkeyRegular.ttf);
+}
+@font-face {
+  font-family: Poppo ;
+  src: url(Fonts/PoppinsRegular.ttf);
+}
