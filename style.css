@@ -132,20 +132,19 @@ refer{color:
     text-decoration: none;
     background-color: #f57316;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     color: #F0FFF0;
     font-family: greto;
     font-weight: lighter;
     letter-spacing: 1px;
     width: 120px;
     text-align: center;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
     overflow: hidden;
 }
 .link-of-the-content-box::after{
     position: absolute;
     content: "";
-    background-color: #F0FFF0;
     width: 0%;
     height: 100%;
     left: 0;
@@ -162,8 +161,9 @@ refer{color:
     color: #f57316;
     z-index: 1;
     width: 150px;
-    transform: skew(-5deg);
-
+    background: none;
+    border: 1px solid;
+    box-shadow: 1px 1px 15px #f57316;
 }
 .icon-query{
     position: absolute;
@@ -286,4 +286,182 @@ refer{color:
 }
 .webxneo-footer-style{
     color: #f57316;
+}
+/* CONTACT PAGE STYLE STARTS HERE */
+.contact-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1200px;
+    background-color: rgb(8, 7, 15);
+    overflow: hidden;
+}
+.title-of-contact-box h3{
+    position: absolute;
+    color: #F0FFF0;
+    font-family: greto;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    right: 0;
+    top: 120px;
+    width: 280px;
+    margin: auto;
+}
+.title-of-contact-box h3::after{
+    content: "";
+    background-color: #f57316;
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    border-radius: 15px;
+}
+.list-of-contacts{
+    position: absolute;
+    top: 200px;
+    width: 80%;
+    height: 580px;
+      background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-direction: row;
+}
+.contact-dgbox{
+    position: absolute;
+    background-color: #36363d;
+    width: 180px;
+    height: 140px;
+    display: flex;
+    margin-right: 15px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 30px;
+    margin-bottom: 50px; 
+    i{ 
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        margin-right: 20px;
+        cursor: pointer;
+        position: absolute;
+        left: 30px;
+        top: 20px;
+        transition: all 0.5s linear;
+    }
+}
+.contact-dgbox:nth-child(1){
+    margin-left: 290px;
+}
+.contact-dgbox:nth-child(2){
+    margin-right: 60px;
+}
+.contact-dgbox:nth-child(3){
+    margin-left:60px;
+}
+.contact-dgbox:nth-child(4){
+    margin-right: 290px;
+}
+.contact-dgbox h5{
+    display: flex;
+    position: absolute;
+    gap: 10px;
+    color: #F0FFF0;
+    bottom: 20px;
+    font-family: arkey;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.content-dgbox:hover{
+    transform: translate(0px, -15px);
+}
+.contact-form-online{
+    position: absolute;
+    top: 180px;
+    width: 100%;
+    height: 100%;
+
+}
+.contact-form-interactable{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items:start;
+    left: 80px;
+    right: 0;
+    margin: auto;
+    gap: 20px;
+    margin-top: 80px;
+    flex-direction: column;
+    color: #F0FFF0;
+    font-family: poppo;
+
+    input{
+        background-color: #36363d;
+        border: none;
+        padding: 15px;
+        color: #F0FFF0;
+    }
+    select{
+        background-color: #36363d;
+        border: none;
+        padding: 15px;
+        color: #F0FFF0;
+    }
+    input[type="checkbox"] {
+        transform: scale(2);
+        background-color: #36363d;
+        border: none;
+        padding: 15px;
+        color: #F0FFF0;
+        margin-left: 5px;
+      }
+      button{
+        position: absolute;
+        left: 0;
+        width: 150px;
+        bottom: -60px;
+        right: 0;
+        margin: auto;
+        height: 50px;
+        background-color: #f57316;
+        border: none;
+        border-radius: 5PX;
+        font-family: greto;
+        font-weight: lighter;
+        color: #F0FFF0;
+        letter-spacing: 2px;
+        font-size: 17px;
+      }
+}
+.contact-form-interactable{
+
 }
