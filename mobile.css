@@ -38,7 +38,10 @@ refer{color:
         display:none;
         flex-direction: column;
     }
-
+    .label-of-tc{
+        margin-right: 50px;
+        padding-right: 50px;
+    }
 }
 @media (min-width:1300px){
     .menu-ft{
