@@ -39,3 +39,7 @@ refer{color:
   font-family: Poppo ;
   src: url(Fonts/PoppinsRegular.ttf);
 }
+@font-face {
+  font-family: Newet ;
+  src: url(Fonts/NewetRegular.otf);
+}

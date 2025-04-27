@@ -331,7 +331,7 @@ refer{color:
     position: absolute;
     top: 200px;
     width: 80%;
-    height: 680px;
+    height: 700px;
       background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 12px;
@@ -342,7 +342,19 @@ refer{color:
     align-items: end;
     justify-content: center;
     flex-direction: row;
+    z-index: ;
 }
+/*.box-one{
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: -50px;
+    background-color: lime;
+    width: 150px;
+    border-radius: 50%;
+    height: 150px;
+    z-index: -23;
+}*/
 .contact-dgbox{
     position: absolute;
     background-color: #36363d;
@@ -409,6 +421,12 @@ refer{color:
     height: 100%;
 
 }
+.contact-us-fill{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
 .contact-form-interactable{
     position: absolute;
     display: flex;
@@ -430,6 +448,12 @@ refer{color:
         padding: 15px;
         color: #F0FFF0;
     }
+    h5{
+        font-family: newet;
+        font-size: 25px;
+        font-weight: lighter;
+        letter-spacing: 2px;
+    }
     select{
         background-color: #36363d;
         border: none;
@@ -443,6 +467,9 @@ refer{color:
         padding: 15px;
         color: #F0FFF0;
         margin-left: 5px;
+      }
+      input:hover{
+        border: none;
       }
       button{
         position: absolute;
@@ -460,5 +487,9 @@ refer{color:
         color: #F0FFF0;
         letter-spacing: 2px;
         font-size: 17px;
+      }
+      input:focus {
+        outline: none;
+        border: none;
       }
 }
